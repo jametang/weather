@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/back_white"
-    tools:context=".view.fragment.WeatherFragment">
+    tools:context="com.southwest.weather.view.fragment.WeatherFragment">
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -133,17 +133,17 @@
                                 android:layout_marginLeft="50dp"
                                 android:orientation="horizontal">
 
-                                <com.heweather.owp.view.horizonview.IndexHorizontalScrollView
+                                <com.southwest.weather.view.horizonview.IndexHorizontalScrollView
                                     android:id="@+id/hsv"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content">
 
-                                    <com.heweather.owp.view.horizonview.HourlyForecastView
+                                    <com.southwest.weather.view.horizonview.HourlyForecastView
                                         android:id="@+id/hourly"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" />
 
-                                </com.heweather.owp.view.horizonview.IndexHorizontalScrollView>
+                                </com.southwest.weather.view.horizonview.IndexHorizontalScrollView>
 
                             </LinearLayout>
                         </RelativeLayout>

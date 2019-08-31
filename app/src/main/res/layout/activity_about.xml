@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/color_ececec"
-    tools:context=".view.activity.AboutActivity">
+    tools:context="com.southwest.weather.view.activity.AboutActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
