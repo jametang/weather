@@ -10,9 +10,9 @@ import com.southwest.weather.MyApplication;
 public class ContentUtil {
 
     //用户id
-    public static final String APK_USERNAME = "和风天气获取的ID";
+    public static final String APK_USERNAME = "HE1908311821211411";
     //用户key
-    public static final String APK_KEY = "和风天气获取的KEY";
+    public static final String APK_KEY = "7bcdf98f7f0044efa53089f427743a1b";
     //当前所在位置
     public static Double NOW_LON = 116.40;
     public static Double NOW_LAT = 39.9;
