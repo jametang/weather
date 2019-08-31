@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">天气普拉斯</string>
+    <string name="app_name">好天气</string>
     <string name="today">今天</string>
     <string name="tomorrow">明天</string>
     <string name="after_t">后天</string>
