@@ -532,7 +532,7 @@ public class WeatherFragment extends Fragment implements WeatherInterface {
             now = now.plusMinutes(((int) minute));
             currentTime = now.toString("HH:mm");
             List<ForecastBase> daily_forecast = bean.getDaily_forecast();
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < daily_forecast.size(); i++) {
                 ForecastBase forecastBase = daily_forecast.get(i);
                 String condCodeD = forecastBase.getCond_code_d();
                 String condCodeN = forecastBase.getCond_code_n();
